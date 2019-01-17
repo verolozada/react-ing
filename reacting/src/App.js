@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import CountryCard from "./components/CountryCard";
-import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
+import Wrapper from "./components/Wrapper"
 import countries from "./countries.json";
 import shuffle from "shuffle-array";
 import "./App.css";
@@ -72,11 +72,25 @@ class App extends Component {
                 {this.state.countries.map(country => (
                     <CountryCard
                         clicked={this.clicked}
-                        key={country.id}
+                        key={CountryCard.id}
                         {...country}
                     />
                 ))}
             </Wrapper>
+            // <Wrapper>
+            //     <Header
+            //         count={this.state.count}
+            //         highest={this.state.highest} />
+            //     <div className="container">
+            //         {this.state.countries.map(country => (
+            //             <CountryCard
+            //                 clicked={this.clicked}
+            //                 key={country.id}
+            //                 {...country}
+            //             />
+            //         ))}
+            //     </div>
+            // </Wrapper>
         );
     }
 }
