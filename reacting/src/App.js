@@ -35,9 +35,7 @@ class App extends Component {
         }
     }
 
-    // set time = () => (
-        // thisetState({from: time1 })
-    // )
+
     //everytime an image is clicked, the images will shuffle. 
     shuffleCountries = () => {
         const shuffleCountries = shuffle(this.state.countries)
