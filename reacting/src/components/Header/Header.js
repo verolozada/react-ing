@@ -6,6 +6,8 @@ const Header = props => (
         <h3 className="title">Remember It!</h3>
 
         <h5>Current Score: {props.count} | Highest Score: {props.highest} </h5>
+
+        
     </div>
 )
 
