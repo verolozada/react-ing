@@ -78,20 +78,6 @@ class App extends Component {
                     />
                 ))}
             </Wrapper>
-            // <Wrapper>
-            //     <Header
-            //         count={this.state.count}
-            //         highest={this.state.highest} />
-            //     <div className="container">
-            //         {this.state.countries.map(country => (
-            //             <CountryCard
-            //                 clicked={this.clicked}
-            //                 key={country.id}
-            //                 {...country}
-            //             />
-            //         ))}
-            //     </div>
-            // </Wrapper>
         );
     }
 }
