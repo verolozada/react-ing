@@ -12,5 +12,12 @@
 }
 
 .scores{
-  font-family: "Roboto";
+  font-family: 'Raleway', sans-serif;
+}
+
+p{
+  font-size: .5em;
+  color: gray;
+  line-height: 1.3em;
+  font-family: 'Raleway', sans-serif;
 }

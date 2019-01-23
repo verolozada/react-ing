@@ -7,7 +7,8 @@ const Header = props => (
 
         <h5 className="scores">Current Score: {props.count} | Highest Score: {props.highest} </h5>
 
-        
+        <p>Let's see how is your memory by playing memory cards. <br/>Just click in any card to start playing then click in a different card until you clicked them all <br/>BUT if you click twice on the same card GAME OVER. <br />Good Luck!</p>
+
     </div>
 )
 
